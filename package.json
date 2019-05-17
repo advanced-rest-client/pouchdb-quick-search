@@ -21,7 +21,7 @@
     "url": "https://github.com/nolanlawson/pouchdb-quick-search/issues"
   },
   "scripts": {
-    "test-node": "istanbul test ./node_modules/mocha/bin/_mocha test/test.js",
+    "test-node": "nyc ./node_modules/mocha/bin/_mocha test/test.js",
     "test-browser": "./bin/test-browser.js",
     "jshint": "jshint -c .jshintrc lib test/test.js",
     "test": "npm run jshint && bash ./bin/run-test.sh",
