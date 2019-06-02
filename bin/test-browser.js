@@ -81,7 +81,7 @@ function testComplete(result) {
 
 function startSelenium(callback) {
   // Start selenium
-  var opts = {version: '2.42.0'};
+  var opts = {version: '3.8.1'};
   selenium.install(opts, function(err) {
     if (err) {
       console.error('Failed to install selenium');
