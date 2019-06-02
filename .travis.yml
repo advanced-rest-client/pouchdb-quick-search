@@ -4,8 +4,8 @@ services:
   - couchdb
 
 node_js:
-  - "5"
-sudo: false
+  - "8"
+sudo: required
 script: npm run $COMMAND
 before_script:
   - "npm install add-cors-to-couchdb"
