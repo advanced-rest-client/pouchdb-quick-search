@@ -5,3 +5,10 @@ node_modules
 coverage
 npm-debug.log
 vendor/
+.nyc_output
+test
+docs
+bin
+.jshintrc
+.gitignore
+.travis.yml
