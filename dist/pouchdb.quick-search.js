@@ -29964,6 +29964,8 @@ exports.createContext = Script.createContext = function (context) {
 (function (global){
 'use strict';
 
+/* global Promise */
+
 // Use a fork of pouchdb-mapreduce, which allows us
 // deeper control over what's persisted, without needing ddocs
 var mapReduce = require(138);
@@ -29975,7 +29977,6 @@ var utils = require(1);
 var lunr = require(116);
 var uniq = require(184);
 var stringify = require(111);
-
 var indexes = {};
 
 var TYPE_TOKEN_COUNT = 'a';
