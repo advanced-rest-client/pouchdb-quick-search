@@ -1,8 +1,9 @@
 {
   "name": "@advanced-rest-client/pouchdb-quick-search",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "PouchDB Quick Search - persisted full-text search for PouchDB",
   "main": "index.js",
+  "module": "main.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/@advanced-rest-client/pouchdb-quick-search.git"
@@ -24,12 +25,12 @@
     "test": "mocha test/*.spec.js"
   },
   "dependencies": {
+    "@advanced-rest-client/pouchdb-mapreduce-no-ddocs": "^3.0.2",
     "esm": "^3.2.25",
     "json-stable-stringify": "^1.0.1",
     "lunr": "^2.3.6",
     "md5": "^2.2.1",
     "pouchdb-extend": "^0.1.2",
-    "@advanced-rest-client/pouchdb-mapreduce-no-ddocs": "^3.0.0",
     "pouchdb-utils": "^7.1.1"
   },
   "devDependencies": {

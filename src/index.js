@@ -2,7 +2,7 @@ import lunr from 'lunr';
 import stringify from 'json-stable-stringify';
 import extend from 'pouchdb-extend';
 import { MD5 } from './utils.js';
-export { query as _searchQuery, viewCleanup } from '@advanced-rest-client/pouchdb-mapreduce-no-ddocs';
+export { query as _searchQuery, viewCleanup } from '@advanced-rest-client/pouchdb-mapreduce-no-ddocs/main.js';
 const TYPE_TOKEN_COUNT = 'a';
 const TYPE_DOC_INFO = 'b';
 

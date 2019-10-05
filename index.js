@@ -1,3 +1,3 @@
 /* eslint-disable-next-line */
 require = require('esm')(module)
-module.exports = require('./src/index.js')
+module.exports = require('./main.js')
