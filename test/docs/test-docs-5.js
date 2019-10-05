@@ -1,6 +1,6 @@
 'use strict';
 
-var docs = [
+const docs = [
   {
     _id: '1',
     list: ['much', 'text', 'goes', 'in this array, you see']
