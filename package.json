@@ -1,6 +1,6 @@
 {
   "name": "@advanced-rest-client/pouchdb-quick-search",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "PouchDB Quick Search - persisted full-text search for PouchDB",
   "main": "lib/index.js",
   "repository": {
